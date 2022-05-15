@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap'); /* font-family: 'Chivo', sans-serif; */
+
+:root {
+  --cyan: rgb(84, 230, 175);
+  --dark-grey: rgb(44, 52, 75);
+  --medium-grey: rgb(90, 102, 138);
+  --light-grey: rgb(194, 203, 229);
+  --very-dark-blue: rgb(18, 23, 37);
+  --white: rgb(255, 255, 255);
+
+  /* Button hover */
+  --light-cyan: rgb(179, 255, 226);
+
+  /* Error message */
+
+  --red: rgb(251, 62, 62);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Chivo', sans-serif;
+  background: url('../assets/desktop/image-host.jpg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 49%;
+  background-color: var(--very-dark-blue);
+}
+
+main {
+  margin: 13rem 0 13rem 16.5rem;
+}
+
+/* Content container */
+
+.logo {
+  position: absolute;
+  top: 10.5rem;
+  left: 16.5rem;
+}
+
+.main-content {
+  margin-top: 26rem;
+  max-width: 72rem;
+  background-color: var(--very-dark-blue);
+}
+
+/* Header */
+.header {
+  font-size: 5.2rem;
+  font-weight: 300;
+  color: var(--cyan);
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+  padding-top: 9rem;
+}
+
+.header span {
+  color: var(--white);
+}
+
+/* Main text */
+.description-container {
+  width: 44.5rem;
+  line-height: 1.5;
+}
+
+.main-text {
+  font-size: 1.8rem;
+  color: var(--light-grey);
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+/* Submit form */
+.submit-form {
+  background-color: var(--dark-grey);
+  width: 42.5rem;
+  border-radius: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6.4rem;
+  position: relative;
+}
+
+.submit-form input {
+  border: none;
+  background-color: transparent;
+  padding: 2.1rem 0 1.8rem 3.2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--white);
+}
+
+.submit-form input:focus {
+  outline: none;
+}
+
+.submit-form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.4rem;
+  width: 25rem;
+}
+
+/* Button */
+
+.submit-form button {
+  border: none;
+  padding: 1.5rem 2.8rem;
+  background-color: var(--cyan);
+  font-size: 1.4rem;
+  font-family: inherit;
+  font-weight: 700;
+  margin-right: 0.6rem;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-form button:hover {
+  background-color: var(--light-cyan);
+}
+
+/* Avaliable on section */
+.avaliable-on {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  width: 100%;
+}
+
+.avaliable-on img {
+  width: 100%;
+}
+
+/* Dotted Pattern */
+.pattern {
+  position: absolute;
+  bottom: 7.8rem;
+  right: 0;
+}
+
+.message {
+  position: absolute;
+  bottom: -35%;
+  left: 8%;
+  font-size: 1.2rem;
+  font-family: inherit;
+  letter-spacing: 0.5px;
+}
+
+.error {
+  color: var(--red);
+}
+
+.success {
+  color: rgb(10, 146, 10);
+}

@@ -1,0 +1,160 @@
+@media (max-width: 75em) {
+  main {
+    margin: 13rem 0 13rem 10rem;
+  }
+
+  .logo {
+    left: 10rem;
+  }
+}
+
+@media (max-width: 65.5rem) {
+  main {
+    margin: 13rem 0 13rem 6rem;
+  }
+
+  .logo {
+    top: 8rem;
+    left: 6rem;
+  }
+}
+
+@media (max-width: 59.375rem) {
+  body {
+    background: url('../assets/tablet/image-host.jpg');
+    background-position-y: top;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-color: var(--very-dark-blue);
+  }
+
+  main {
+    margin: 13rem 0 25rem 4rem;
+  }
+
+  .logo {
+    top: 5rem;
+    left: 4rem;
+  }
+
+  .pattern {
+    left: 4rem;
+    bottom: -15rem;
+  }
+}
+
+@media (max-width: 53em) {
+  .main-content {
+    max-width: 63.5rem;
+    margin-top: 26.5rem;
+  }
+
+  .header,
+  .header span {
+    font-size: 4.8rem;
+  }
+
+  .avaliable-on {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 42em) {
+  body {
+    background: linear-gradient(rgba(18, 23, 37, 0.9), rgba(18, 23, 37, 0.9)),
+      url('../assets/mobile/image-host.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  main {
+    margin: 0 2.4rem;
+  }
+
+  .logo {
+    top: 6.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .main-content {
+    margin-top: 5.6rem;
+    width: 100%;
+
+    background-color: transparent;
+
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  .header,
+  .header span {
+    font-size: 3.8rem;
+    margin-top: 5.8rem;
+  }
+
+  .description-container {
+    width: 100%;
+  }
+
+  .main-text {
+    margin-bottom: 3.4rem;
+  }
+
+  .avaliable-on {
+    justify-content: center;
+    grid-row: 2;
+    margin-bottom: 4.8rem;
+    gap: 2.4rem;
+  }
+
+  .avaliable-on img {
+    width: 18%;
+  }
+
+  .submit-form {
+    display: grid;
+    grid-auto-rows: auto;
+    position: relative;
+    width: 100%;
+  }
+
+  .submit-form input {
+    padding: 1.5rem 0 1.5rem 3.2rem;
+  }
+
+  .btn {
+    position: absolute;
+    width: 100%;
+    bottom: -120%;
+  }
+
+  .description-container {
+    min-width: 32rem;
+    display: grid;
+    grid-auto-rows: auto;
+  }
+
+  .pattern {
+    display: none;
+  }
+
+  .message {
+    position: absolute;
+    bottom: 100%;
+  }
+}
+
+@media (max-width: 31.5rem) {
+  .header,
+  .header span {
+    font-size: 2.6rem;
+  }
+
+  .main-text {
+    font-size: 1.5rem;
+  }
+}
